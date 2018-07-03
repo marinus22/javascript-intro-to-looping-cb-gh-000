@@ -19,3 +19,11 @@ function whileLoop(number) {
   }
   return 'done';
 }
+
+}
+function doWhileLoop(array) {
+  do {
+    array.pop(array[array.length])
+  } while (array.length > 0);
+  return array;
+}
