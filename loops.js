@@ -6,7 +6,6 @@ function forLoop(array) {
       else {
         array.push(`I am ${i} strange loops.`);
       }
-
   }
   return array;
 }
@@ -20,7 +19,6 @@ function whileLoop(number) {
   return 'done';
 }
 
-}
 function doWhileLoop(array) {
   do {
     array.pop(array[array.length])
